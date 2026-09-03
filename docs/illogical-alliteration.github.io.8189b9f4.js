@@ -1,0 +1,2 @@
+let e=document.querySelector(".flip-card");document.querySelectorAll(".flip-the-card").forEach(t=>{t.onclick=()=>{e.classList.toggle("flipped")}});let t=0,d=!1;document.addEventListener("mousedown",e=>{t=e.clientX,d=!0}),document.addEventListener("mousemove",e=>{if(!d)return}),document.addEventListener("mouseup",n=>{!d||(d=!1,Math.abs(n.clientX-t)>50&&e.classList.toggle("flipped"))}),document.addEventListener("mouseleave",()=>{d=!1});
+//# sourceMappingURL=illogical-alliteration.github.io.8189b9f4.js.map

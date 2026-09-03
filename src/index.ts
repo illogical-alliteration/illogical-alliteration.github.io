@@ -14,6 +14,7 @@ let startTime;
 
 
 // touch
+/*
 document.addEventListener('touchstart', (e) => {
   startX = e.changedTouches[0].clientX;
 }, { passive: true });
@@ -25,6 +26,7 @@ document.addEventListener('touchend', (e: MouseEvent) => {
     card.classList.toggle('flipped');
   }
 }, { passive: true });
+*/
 
 // mouse
 let isDragging = false
