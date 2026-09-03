@@ -2,6 +2,7 @@
   --link-color: black;
   --bg-color: whitesmoke;
   --font-color: black;
+  user-select: none;
 }
 
 * {
